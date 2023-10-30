@@ -1,0 +1,70 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+/* GAMING AREA STYLE */
+
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+
+}
+
+.grid {
+    
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cell {
+    aspect-ratio: 1;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* FOOTER */
+.container-footer {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: red;
+
+}
