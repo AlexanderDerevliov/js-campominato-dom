@@ -69,3 +69,10 @@
     width: 100%;
     padding: 1rem 1.5rem;
 }
+
+#punteggio {
+    font-size: 1.5rem;
+    padding: 2rem 1.5rem;
+    color: rgb(225, 7, 7);
+
+}

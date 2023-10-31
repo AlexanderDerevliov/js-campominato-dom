@@ -19,7 +19,7 @@ function initGame() {
 
         //Inizializzo il punteggio
          let punteggio = 0;
-         console.log(punteggio)
+         document.getElementById ('punteggio').innerHTML = `Il tuo Punteggio è ${punteggio}`
         
 
         //Gestore di gameover
@@ -44,22 +44,22 @@ function initGame() {
                     //se contiene bomba
                     if( bombe.includes(cellaCliccata) ) {
                         this.classList.add("clicked-bomb");
-                        console.log(`Partita terminata, hai perso. Punteggio: ${punteggio}`);
+                        document.getElementById ('punteggio').innerHTML = `Partita terminata, hai perso. Punteggio: ${punteggio}`;
                         scopriBombe(bombe);
                         gameover = true;
                     } else {
                         this.classList.add("clicked");
                         punteggio++;
-                        console.log(`Punteggio: ${punteggio}`);
+                        document.getElementById ('punteggio').innerHTML = `Punteggio: ${punteggio}`;
 
                         if(punteggio == numeroDiCelleTotali - quantitaBombe) {
-                            console.log(`Partita terminata, hai VINTO! Punteggio: ${punteggio}`);
+                            document.getElementById ('punteggio').innerHTML = `Partita terminata, hai VINTO! Punteggio: ${punteggio}`;
                             scopriBombe(bombe);
                             gameover = true;
                         }
                     }
                   } else {
-                    console.error("La partita è finita e hai superato il limite, torna domani!");
+                    document.getElementById ('punteggio').innerHTML = "La partita è finita e hai superato il limite, torna domani!";
                 }
 
             });
