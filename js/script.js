@@ -50,7 +50,7 @@ function initGame() {
                     } else {
                         this.classList.add("clicked");
                         punteggio++;
-                        // writeToElement("risultato", `Punteggio: ${punteggio}`);
+                        console.log(`Punteggio: ${punteggio}`);
 
                         if(punteggio == numeroDiCelleTotali - quantitaBombe) {
                             console.log(`Partita terminata, hai VINTO! Punteggio: ${punteggio}`);
