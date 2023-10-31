@@ -34,6 +34,7 @@
 
 }
 
+
 .grid {
     
     width: 600px;
@@ -48,6 +49,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* BOMBS */
+.cell.clicked {
+    background: rgb(116, 142, 220);
+    color: white;
+}
+
+.cell.clicked-bomb {
+    background: rgb(113, 27, 44);
+    color: white;
 }
 
 

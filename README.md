@@ -29,9 +29,12 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 # soluzione con le bombe #
 
-- [] generare 16 numeri random in diverse celle
-- [] generarlo per tre livelli
-- [] se si clicca sul numero uguale a quello generato, si colora di rosso
+- [x] generare 16 numeri random in diverse celle
+- [x] generarlo per tre livelli
+- [x] se si clicca sul numero uguale a quello generato, si colora di rosso
 altrimenti si continua ad andare avanti
 
-- [] creare messaggio con punteggio
+- [x] creare messaggio con punteggio
+     se ha vinto l'utente 
+     oppure se l'utente perde cliccando sulla bomba
+     se l'utente continua a cliccare, dare errore
